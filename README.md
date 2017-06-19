@@ -23,6 +23,7 @@
 1. `npm run test:watch` : Watch tests while writing
 1. `npm run test:cover` : Show coverage report of your tests
 1. `npm run test:report` : Report test coverage to codecov.io. Leave this for CI
+1. `npm run format`: Run prettier on all JS files
 
 ### License
 MIT @ Ritesh Kumar

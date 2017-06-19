@@ -10,7 +10,7 @@
     "test:report": "cat ./coverage/lcov.info | codecov && rm -rf ./coverage",
     "lint": "eslint components/**/*.js tests/**/*.js",
     "lintfix": "eslint --fix components/**/*.js tests/**/*.js",
-    "format": "prettier-eslint components/**/*.js tests/**/*.js",
+    "format": "prettier-eslint --write components/**/*.js tests/**/*.js",
     "precommit": "lint-staged"
   },
   "repository": {
