@@ -1,7 +1,6 @@
 {
-  "name": "react-native-component-boilerplate",
-  "version": "1.0.0",
-  "description": "A boilerplate to create React Native components",
+  "name": "react-native-generic-text",
+  "description": "A Text component for React Native using styled-components.",
   "main": "components/index.js",
   "scripts": {
     "test": "mocha --require react-native-mock/mock.js --compilers js:babel-core/register --recursive tests/**/*.test.js",
@@ -15,23 +14,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ritz078/react-component-boilerplate.git"
+    "url": "https://github.com/housinghq/react-native-generic-text.git"
   },
   "keywords": [],
   "author": "Ritesh Kumar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ritz078/react-component-boilerplate/issues"
+    "url": "https://github.com/housinghq/react-native-generic-text/issues"
   },
-  "homepage": "https://github.com/ritz078/react-component-boilerplate",
+  "homepage": "https://github.com/housinghq/react-native-generic-text",
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
   },
   "dependencies": {
+    "assign-all": "^1.0.0",
     "react": "^15.6.1",
-    "react-native": "^0.45.1"
+    "react-native": "^0.45.1",
+    "styled-components": "^2.1.0"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -44,6 +45,8 @@
     "eslint": "^4.0.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.1.0",
     "eslint-plugin-standard": "^3.0.1",
