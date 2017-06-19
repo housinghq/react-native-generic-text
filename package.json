@@ -30,7 +30,6 @@
     }
   },
   "dependencies": {
-    "husky": "^0.13.4",
     "react": "^15.6.1",
     "react-native": "^0.45.1"
   },
@@ -48,6 +47,7 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.1.0",
     "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.13.4",
     "istanbul": "^1.1.0-alpha.1",
     "lint-staged": "^4.0.0",
     "mocha": "^3.4.2",
