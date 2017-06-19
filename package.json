@@ -1,0 +1,55 @@
+{
+  "name": "react-native-component-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate to create React Native components",
+  "main": "components/index.js",
+  "scripts": {
+    "test": "mocha --require react-native-mock/mock.js --compilers js:babel-core/register --recursive tests/**/*.test.js",
+    "test:watch": "npm test -- --watch",
+    "test:cover": "istanbul cover -x *.test.js _mocha -- -R spec --require react-native-mock/mock.js --compilers js:babel-core/register 'tests/**/*.test.js'",
+    "test:report": "cat ./coverage/lcov.info | codecov && rm -rf ./coverage",
+    "lint": "eslint components/** tests/**",
+    "lintfix": "eslint --fix components/** tests/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ritz078/react-component-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Ritesh Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ritz078/react-component-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ritz078/react-component-boilerplate",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-native": "^0.45.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-jest": "^20.0.3",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "chai": "^4.0.2",
+    "codecov.io": "^0.1.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "enzyme": "^2.8.2",
+    "eslint": "^4.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^3.4.2",
+    "prettier-eslint-cli": "^4.1.1",
+    "prop-types": "^15.5.10",
+    "react-dom": "^15.5.4",
+    "react-native-mock": "^0.3.1"
+  }
+}
