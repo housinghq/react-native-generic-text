@@ -2,6 +2,8 @@
 
 > A Text component for React Native using styled-components.
 
+
+
 ## Options
 
 prop | default | Description
