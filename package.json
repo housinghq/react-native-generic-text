@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/housinghq/react-native-generic-text.git"
   },
-  "keywords": [],
+  "keywords": ["react-native", "text", "react-native-text"],
   "author": "Ritesh Kumar",
   "license": "MIT",
   "bugs": {
@@ -29,12 +29,14 @@
     }
   },
   "dependencies": {
-    "assign-all": "^1.0.0",
-    "react": "^15.6.1",
-    "react-native": "^0.45.1",
     "styled-components": "^2.1.0"
   },
+  "peerDependencies": {
+    "react": "^15.6.1",
+    "react-native": "^0.45.1"
+  },
   "devDependencies": {
+    "assign-all": "^1.0.0",
     "babel": "^6.23.0",
     "babel-jest": "^20.0.3",
     "babel-preset-react-native-stage-0": "^1.0.1",
