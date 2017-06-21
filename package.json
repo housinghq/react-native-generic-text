@@ -45,8 +45,8 @@
     "styled-components": "^2.1.0"
   },
   "peerDependencies": {
-    "react": "^15.6.1",
-    "react-native": "^0.45.1"
+    "react": ">=15.6.1",
+    "react-native": ">=0.44.0"
   },
   "devDependencies": {
     "assign-all": "^1.0.0",

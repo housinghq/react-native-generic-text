@@ -6,11 +6,12 @@ cache:
 notifications:
   email: false
 node_js:
-  - '6'
+  - '7'
 before_install:
   - npm i -g npm@^3.0.0
 before_script:
-  - npm prune && npm i react-native@0.44.0 && npm i react@0.16.0-alpha.3
+  - npm i react-native@0.44.0
+  - npm i react@0.16.0-alpha.3
 script:
   - npm run test:cover
 after_success:
