@@ -1,6 +1,6 @@
 {
   "name": "react-native-generic-text",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A Text component for React Native using styled-components.",
   "main": "dist/index.js",
   "jsnext:main": "components/index.js",
@@ -43,15 +43,15 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "^15.6.1",
-    "react-native": "^0.45.1"
+    "react": ">=15.6.1",
+    "react-native": ">=0.44.0"
   },
   "devDependencies": {
     "assign-all": "^1.0.0",
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
     "babel-jest": "^20.0.3",
-    "babel-preset-react-native-stage-0": "^1.0.1",
+    "babel-preset-react-native": "^2.0.0",
     "chai": "^4.0.2",
     "codecov.io": "^0.1.6",
     "cz-conventional-changelog": "^2.0.0",
