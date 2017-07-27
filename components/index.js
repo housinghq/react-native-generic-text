@@ -1,15 +1,27 @@
+import React from 'react'
 import PropTypes from 'prop-types'
 import { Text, Platform } from 'react-native'
-import styled from 'styled-components/native'
 
-const GenericText = styled(Text)`
-  font-family: ${({ font }) => font};
-  font-weight: ${({ weight }) => weight};
-  font-size: ${({ size }) => size};
-  color: ${({ color }) => color};
-  line-height: ${({ lineHeight }) => lineHeight};
-  text-align: ${({ align }) => align};
-`
+function GenericText ({
+  font,
+  weight,
+  size,
+  color,
+  lineHeight,
+  align,
+  children
+}) {
+  const style = {
+    fontFamily: font,
+    fontWeight: weight,
+    fontSize: size,
+    color,
+    lineHeight,
+    textAlign: align
+  }
+
+  return <Text style={style}>{children}</Text>
+}
 
 GenericText.propTypes = {
   ...Text.propTypes,
