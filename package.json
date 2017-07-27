@@ -1,6 +1,6 @@
 {
   "name": "react-native-generic-text",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A Text component for React Native using styled-components.",
   "main": "dist/index.js",
   "jsnext:main": "components/index.js",
